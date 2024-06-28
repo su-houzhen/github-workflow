@@ -14,8 +14,7 @@ password = os.environ.get("PASSWORD")
 url = "https://glados.rocks/api/user/checkin"
 cookies = {
     "koa:sess": "eyJ1c2VySWQiOjM4Mzg4NSwiX2V4cGlyZSI6MTcxOTM5NzgwNTg2NywiX21heEFnZSI6MjU5MjAwMDAwMDB9",
-    "koa:sess.sig": "yIGXjzGJaGkG06usfNfX07Tg60A",
-    "__stripe_mid": "66fe41cb-0264-4356-91c1-e066e104abbe25967c"
+    "koa:sess.sig": "_8nFI9K7woYm5zIoHD_9ywN3nxg"
 }
 # from 请求负载
 value = {"token": "glados.one"}
